@@ -1,6 +1,6 @@
-def main():
-    print("Hello from fastmcp-demo!")
+from fastmcp import FastMCP
 
+mcp = FastMCP(name = "FastMCP Demo")
 
 if __name__ == "__main__":
-    main()
+    mcp.run()
